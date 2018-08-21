@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor-primaria: #ffe900;
+    --cor-secundaria: #ff0002;
+}
+
+.cabecalho {
+    max-width: 100%;
+    background: var(--cor-primaria);
+    padding: 12px;
+}
+
+.cabecalho__titulo {
+    color: var(--cor-secundaria);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.cabecalho__titulo,
+.cabecalho__subtitulo {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cabecalho__subtitulo {
+    font-size: 20px;
+
+}
+
