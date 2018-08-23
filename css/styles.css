@@ -60,7 +60,7 @@
 .titulo1 {
     font-size: 36px;
     padding: 24px 0;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .titulo2 {
@@ -80,4 +80,24 @@ p, ul {
 .em-breve {
     font-style: italic;
     color: gray;
+}
+
+@media screen and (max-width: 880px){
+    .corpo {
+        padding: 0 24px;
+    }
+
+    .titulo1 {
+        font-size: 28px;
+        padding: 16px 0;
+    }
+    
+    .titulo2 {
+        font-size: 20px;
+        padding: 8px 0;
+    }
+
+    .cabecalho__titulo {
+        font-size: 28px;
+    }
 }
