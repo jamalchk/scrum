@@ -1,15 +1,13 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 :root {
-    --cor-primaria: #ffe900;
-    --cor-secundaria: #ff0002;
+    --cor-primaria: #ff0002;
+    --cor-secundaria: #ececec;
 }
 
-/* NAVEGAÇÃO
+/* NAVEGAÇÃO E CABEÇALHO
 ======================= */
 
 .navegacao {
@@ -18,49 +16,65 @@
 }
 
 .navegacao__item {
-    padding: 0px 12px;
+    padding: 12px 24px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+}
+
+.navegacao__item:hover {
+    border-color: var(--cor-primaria);
+    cursor: pointer;
+}
+
+.cabecalho__titulo,
+.navegacao__item {
     color: black;
 }
 
 
+.navegacao__item:hover,
+.cabecalho__titulo:hover {
+    cursor: pointer;
+    color: var(--cor-primaria);
+}
 
-
-/* CABECALHO
-=========================== */
-
-.cabecalho {
-    max-width: 100%;
-    background: var(--cor-primaria);
+.cabecalho__fundo {
+    max-width: 960px;
+    margin: 24px auto;
     padding: 8px 16px;
     display: flex;
     justify-content: space-between;
 }
 
 .cabecalho__titulo {
-    color: var(--cor-secundaria);
     text-transform: uppercase;
-    font-weight: 800;
-    font-size: 40px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
 }
+
 
 
 /* CORPO
 =========================== */
 
 .corpo {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 /* TÍTULOS
 =========================== */
 
+.titulo1, .titulo2 {
+    font-family: "Domine", sans-serif;
+    font-size: 12px;
+}
+
 .titulo1 {
     font-size: 36px;
     padding: 24px 0;
-    font-weight: 800;
 }
 
 .titulo2 {
